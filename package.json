@@ -1,0 +1,17 @@
+{
+  "name": "hyperpix",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm --workspace @hyperpix/desktop run dev",
+    "build:desktop": "npm --workspace @hyperpix/desktop run build",
+    "lint:desktop": "npm --workspace @hyperpix/desktop run lint"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "editor.formatOnSave": true,
+  "python.analysis.extraPaths": ["services/api"]
+}
